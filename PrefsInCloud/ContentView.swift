@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage(gBackgroundColorKey) var chosenColorValue: ColorIndex = .white
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Picker("Background color", selection: $chosenColorValue) {
+                ForEach(ColorIndex.allCases, id: \.rawValue) { color in
+                    Text(color.name)
+                        .tag(color)
+                }
+            }
+            .pickerStyle(.inline)
         }
         .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(chosenColorValue.color)
+        #if os(macOS)
+        .frame(minWidth: 100, minHeight: 100)
+        #else
+        #endif
     }
 }
 

@@ -11,6 +11,7 @@
 		17C983772BCBE4A000ABCB47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C983762BCBE4A000ABCB47 /* ContentView.swift */; };
 		17C983792BCBE4A100ABCB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C983782BCBE4A100ABCB47 /* Assets.xcassets */; };
 		17C9837D2BCBE4A100ABCB47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C9837C2BCBE4A100ABCB47 /* Preview Assets.xcassets */; };
+		17C983842BCBEC4C00ABCB47 /* ColorIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C983832BCBEC4C00ABCB47 /* ColorIndex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		17C983782BCBE4A100ABCB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17C9837A2BCBE4A100ABCB47 /* PrefsInCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrefsInCloud.entitlements; sourceTree = "<group>"; };
 		17C9837C2BCBE4A100ABCB47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17C983832BCBEC4C00ABCB47 /* ColorIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorIndex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				17C983742BCBE4A000ABCB47 /* PrefsInCloudApp.swift */,
+				17C983832BCBEC4C00ABCB47 /* ColorIndex.swift */,
 				17C983762BCBE4A000ABCB47 /* ContentView.swift */,
 				17C983782BCBE4A100ABCB47 /* Assets.xcassets */,
 				17C9837A2BCBE4A100ABCB47 /* PrefsInCloud.entitlements */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17C983772BCBE4A000ABCB47 /* ContentView.swift in Sources */,
+				17C983842BCBEC4C00ABCB47 /* ColorIndex.swift in Sources */,
 				17C983752BCBE4A000ABCB47 /* PrefsInCloudApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +186,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -243,6 +248,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
