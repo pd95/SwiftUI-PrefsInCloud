@@ -18,6 +18,7 @@ struct ContentView: View {
                 }
             }
             .pickerStyle(.inline)
+            .foregroundStyle(.black)
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)

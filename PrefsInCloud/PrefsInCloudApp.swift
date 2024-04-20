@@ -16,7 +16,7 @@ struct PrefsInCloudApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .onChange(of: chosenColorValue) { oldValue, newValue in
+                .onChange(of: chosenColorValue) { newValue in
                     print("Background color changed to ", newValue)
                     print("Synching value with iCloud")
                     NSUbiquitousKeyValueStore.default.set(chosenColorValue, forKey: gBackgroundColorKey)
